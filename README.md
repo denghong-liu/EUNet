@@ -1,6 +1,6 @@
-# EUNet
+# An Efficient Unfolding Network with Disentangled Spatial-Spectral Representation for Hyperspectral Image Super-Resolution
 
-Pytorch implementation of EUNet
+Pytorch implementation of EUNet [[Paper](https://doi.org/10.1016/j.inffus.2023.01.018)]
 
 ## Requirements
 - Python 3.9
@@ -22,6 +22,20 @@ For your convience, we provide the testset of Pavia Centre in `/hdata/data/` and
 
 ```python
 python main_test.py --scale 2 --dir_data hdata/data/ --dataset_name Pavia  --n_colors 102 --model_path hsr/model/G.pth
+```
+
+## Citation
+Please cite our work in your publications if it helps your research.
+
+```BibTex
+@article{liu2023efficient,
+  title={An Efficient Unfolding Network with Disentangled Spatial-Spectral Representation for Hyperspectral Image Super-Resolution},
+  author={Liu, Denghong and Li, Jie and Yuan, Qiangqiang and Zheng, Li and He, Jiang and Zhao, Shuheng and Xiao, Yi},
+  journal={Information Fusion},
+  year={2023},
+  publisher={Elsevier},
+  doi={10.1016/j.inffus.2023.01.018}
+}
 ```
 
 ## References
